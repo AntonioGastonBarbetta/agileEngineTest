@@ -8,6 +8,7 @@
 <p>Choice a synonym</p>
 
 <div class="synonyms-content">
+  <p *ngIf="synonyms.length === 0">there are no synonyms</p>
   <button
     class="synonyms-content-button"
     mat-stroked-button
