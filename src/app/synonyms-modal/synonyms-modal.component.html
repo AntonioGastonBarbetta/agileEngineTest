@@ -1,0 +1,21 @@
+<div class="synonyms-header">
+  <h1>Synonyms</h1>
+  <button mat-icon-button mat-dialog-close>
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
+
+<p>Choice a synonym</p>
+
+<div class="synonyms-content">
+  <button
+    class="synonyms-content-button"
+    mat-stroked-button
+    color="primary"
+    *ngFor="let synonym of synonyms"
+    (click)="replaceWord.emit(synonym.word)"
+    mat-dialog-close
+  >
+    {{ synonym.word }}
+  </button>
+</div>

@@ -1,0 +1,11 @@
+<div
+  id="file"
+  class="file"
+  [attr.contenteditable]="true"
+  (click)="execute.emit()"
+  (keyup)="execute.emit()"
+  #editor
+  (dblclick)="selectWord.emit()"
+>
+  {{ text }}
+</div>

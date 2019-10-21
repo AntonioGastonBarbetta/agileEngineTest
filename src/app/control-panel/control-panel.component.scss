@@ -1,0 +1,23 @@
+:host {
+  background-color: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+  width: 639px;
+  border-radius: 8px;
+}
+
+.format-actions {
+  width: 202px;
+  margin-right: 400px;
+}
+
+button + button {
+  margin-left: 5px;
+}
+
+.active {
+  background-color: #d1bef1;
+}

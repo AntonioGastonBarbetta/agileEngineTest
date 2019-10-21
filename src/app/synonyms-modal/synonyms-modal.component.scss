@@ -1,0 +1,16 @@
+.synonyms {
+  &-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    height: 300px;
+    overflow-y: auto;
+    &-button {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
