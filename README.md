@@ -2,7 +2,7 @@
 
 ## Install
 
-Fun `npm install` or `yarn` in the root folder.
+Run `npm install` or `yarn` in the root folder.
 
 ## Development server
 
