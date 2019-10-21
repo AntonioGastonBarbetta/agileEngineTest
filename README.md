@@ -16,4 +16,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 + To change format text, click on the format buttons. Also you can select some text and change its format.
 
-+ To see synonyms, do doble click in a word and you're going to see a dialog with the synonyms.
++ To see synonyms, do doble click on a word and you're going to see a dialog with the synonyms.
